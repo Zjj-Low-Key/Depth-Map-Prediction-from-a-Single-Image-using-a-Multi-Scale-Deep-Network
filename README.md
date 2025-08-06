@@ -6,3 +6,5 @@ Make modifications based on <https://github.com/imran3180/depth-map-prediction>
 Rewrote the dataset based on the data augmentation methods described in the original paper.
 
 It is recommended to modify the dataset according to your own needs.
+
+Added valid mask, and when calculating the metrics, the scales were aligned according to the original paper's method.
